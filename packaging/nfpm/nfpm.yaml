@@ -23,8 +23,8 @@ contents:
     dst: /usr/share/mechanix/mechanix-files/mechanix_files
     file_info:
       mode: 0755
-  - src: ./stage/bundle/lib
-    dst: /usr/share/mechanix/mechanix-files/lib
+  - src: ./stage/bundle/lib/libapp.so
+    dst: /usr/share/mechanix/mechanix-files/lib/libapp.so
   - src: ./stage/bundle/data
     dst: /usr/share/mechanix/mechanix-files/data
   - src: ./packaging/nfpm/scripts/launcher.sh
